@@ -3,7 +3,7 @@
   "crons": [
     {
       "path": "/api/track-prices-cron-job",
-      "schedule": "45 7 * * *"
+      "schedule": "40 8 * * *"
     }
   ]
 }
