@@ -10,8 +10,24 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "outDir": "dist",
-    "types": ["@vercel/node"]
+    "types": [
+      "@vercel/node"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "jsx": "preserve"
   },
-  "include": ["api/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "api/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
