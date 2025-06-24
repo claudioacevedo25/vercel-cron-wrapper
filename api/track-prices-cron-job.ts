@@ -1,5 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node"
 
+export const dynamic = "force-dynamic"
+
 interface TrackResponse {
   status: string
   updated?: string[]
